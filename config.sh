@@ -1,28 +1,28 @@
 #!/bin/bash
 
-export GITHUB_USER=""
-export GITHUB_EMAIL=""
+export GITHUB_USER="higorslva"
+export GITHUB_EMAIL="higors88@gmail.com"
 
-export device=""
+export device="condor"
 
-export ROM=""
-export ROM_DIR=""
-export ROM_VERSION=""
+export ROM="LineageOS"
+export ROM_DIR="${WORKSPACE}/LOS"
+export ROM_VERSION="14.1"
 export official="false"
 export local_manifest_url=""
-export manifest_url=""
-export rom_vendor_name=""
-export branch=""
+export manifest_url="https://github.com/LineageOS/android"
+export rom_vendor_name="lineage"
+export branch="cm-14.1"
 export bacon="bacon"
 export buildtype=""
-export clean=""
-export upload_recovery=""
+export clean="installclean"
+export upload_recovery="true"
 
-export ccache=""
-export ccache_size=""
+export ccache="true"
+export ccache_size="50"
 
-export jenkins="false"
+export jenkins="true"
 
-export release_repo=""
+export release_repo="higorslva/roms"
 
 export timezone="UTC"
